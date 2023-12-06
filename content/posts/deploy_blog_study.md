@@ -1,5 +1,5 @@
 +++
-title = 'Deploy_blog_study'
+title = '博客部署简要记录'
 date = 2023-12-06T21:29:57+08:00
 draft = false
 +++
