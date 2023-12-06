@@ -1,7 +1,7 @@
 +++
 title = 'Deploy_blog_study'
 date = 2023-12-06T21:29:57+08:00
-draft = true
+draft = false
 +++
 
 
