@@ -32,31 +32,31 @@ defaultContentLanguageInSubdir: false
 menu:
   main:
     - identifier: search
-      name: 🔍 搜索
+      name: 搜索
       url: search
       weight: 1
     - identifier: home
-      name: 🏠 主页
+      name: 主页
       url: /
       weight: 2
     - identifier: posts
-      name: 📚 文章
+      name: 文章
       url: posts
       weight: 3
     - identifier: tags
-      name: 🧩 标签
+      name: 标签
       url: tags
       weight: 15
     - identifier: archives
-      name: ⏱️ 时间轴
+      name: 时间轴
       url: archives/
       weight: 20
     - identifier: about
-      name: 🙋🏻‍♂️ 关于
+      name: 关于
       url: about
       weight: 50
     - identifier: links
-      name: 🤝 友链
+      name: 友链
       url: links
       weight: 60
 
@@ -99,35 +99,25 @@ params:
     enabled: true
     title: (〃'▽'〃)
     subtitle:
-    # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-    imageUrl: "img/Q.gif"
+    # subtitle: "有空再更~<br/>👇联系方式"
+    imageUrl: "img/me.png"
     imageTitle:
     imageWidth: 150
     imageHeight: 150
     buttons:
-      - name: 🧱 建站
+      - name: 建站
         url: posts/blog
-      - name: 👨🏻‍💻 技术
+      - name: 技术
         url: posts/tech
-      - name: 📕 阅读
-        url: posts/read
-      - name: 🏖 生活
+      - name: 生活
         url: posts/life
 
   socialIcons:
     - name: github
       url: ""
     - name: twitter
-      url: "img/twitter.png"
-    - name: facebook
       url: ""
-    - name: instagram
-      url: "img/instagram.png"
-    - name: QQ
-      url: "img/qq.png"
-    - name: WeChat
-      url: "img/wechat.png"
-    - name: bilibili
+    - name: facebook
       url: ""
     - name: email
       url: ""
@@ -136,7 +126,7 @@ params:
 
   label: # 左上角图标
     text: "zhroc's Blog"
-    icon: "img/Q.gif"
+    icon: ""
     iconHeight: 35
 
   analytics:
@@ -144,11 +134,11 @@ params:
       SiteVerificationTag: ""
 
   assets:
-    favicon: "img/Q.gif"
-    favicon16x16: "img/Q.gif"
-    favicon32x32: "img/Q.gif"
-    apple_touch_icon: "img/Q.gif"
-    safari_pinned_tab: "img/Q.gif"
+    favicon: "img/me.png"
+    favicon16x16: "img/me.png"
+    favicon32x32: "img/me.png"
+    apple_touch_icon: "img/me.png"
+    safari_pinned_tab: "img/me.png"
     disableFingerprinting: true # 禁用指纹
 
   cover:
@@ -166,8 +156,8 @@ params:
     keys: [ "title", "permalink", "summary" ]
 
   StartYear: 2023 # 底部开始年份
-  FilingNo: 填写自己的备案号 # 底部备案号
-  PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
+  FilingNo: 萌ICP备20200608 # 底部备案号
+  PublicSecurityIconLink: img/moe.png # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
   PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
 
   Reward: true #打赏是否开启
