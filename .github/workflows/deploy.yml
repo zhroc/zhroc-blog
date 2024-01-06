@@ -25,7 +25,7 @@ jobs:
             - name: Build Web
               run: hugo
 
-            - name: Upload CNAME
+            # - name: Upload CNAME
               # run: echo "Domain" > ./public/CNAME
 
             - name: Create Gitignore
