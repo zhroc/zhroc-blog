@@ -26,7 +26,7 @@ jobs:
               run: hugo
 
             - name: Upload CNAME
-              run: echo "cooleryue.cn" > ./public/CNAME
+              # run: echo "Domain" > ./public/CNAME
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
