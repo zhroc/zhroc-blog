@@ -28,6 +28,9 @@ jobs:
             - name: Upload CNAME
               # run: echo "Domain" > ./public/CNAME
 
+            - name: Create Gitignore
+              run: echo ".nojekyll" > ./public/.gitignore
+
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
               with:
