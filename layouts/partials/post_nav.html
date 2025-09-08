@@ -1,0 +1,28 @@
+<!-- 结束分割线 -->
+<div class="end-divider">
+  <span class="end-text">END</span>
+</div>
+
+
+<div class="post-nav">
+  <!-- 底部导航 -->
+  <div class="post-left post-back-link">
+    {{ if .Parent }}
+      <a href="{{ .Parent.RelPermalink }}" class="btn">
+        <i></i> > cd ..
+      </a>
+    {{ else }}
+      <a href="{{ .Site.BaseURL }}" class="btn">
+        <i></i> > cd /
+      </a>
+    {{ end }}
+  </div>
+  <!-- licenses -->
+  <div class="post-right license-notice">
+    <p>
+      <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+        CC BY-NC-SA 4.0</a>
+      2020-PRESENT © {{ .Site.Params.author }}
+    </p>
+  </div>
+</div>

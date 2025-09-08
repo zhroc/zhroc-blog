@@ -1,0 +1,26 @@
+<!-- 所有页面基础字体 -->
+<style>
+
+  @font-face {
+    font-family: "LXGWWenKaiLite-Bold";
+    src: url('/fonts/LXGWBold-subset.woff2') format('woff2');
+    font-display: optional; 
+  }
+
+  
+  /* 主页覆盖 */
+
+  {{ if .IsHome }}
+    @font-face {
+      font-family: "LXGWWenKaiLite-Bold";
+      src: url('/fonts/LXGWBold-home.woff2') format('woff2');
+      font-display: swap; 
+    }
+  {{ end }}
+
+  
+/*  body {
+    font-family: "LXGWWenKaiLite-Bold", "Microsoft YaHei", sans-serif;
+  }*/
+  
+</style>

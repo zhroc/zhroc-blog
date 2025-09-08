@@ -1,0 +1,12 @@
+<!-- hugo语法注释使用 {{/* 注释的内容 */}} -->
+
+{{ if .IsHome }}
+  <!-- 主页：立即加载自身子集 + 预加载基础子集 -->
+  <link rel="preload" href="/fonts/LXGWBold-home.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="prefetch" href="/fonts/LXGWBold-subset.woff2" as="font" type="font/woff2" crossorigin>
+{{ else }}
+  <!-- 其他页面：直接加载基础子集 -->
+  <link rel="preload" href="/fonts/LXGWBold-subset.woff2" as="font" type="font/woff2" crossorigin>
+{{ end }}
+
+

@@ -1,0 +1,11 @@
+<!-- layouts/shortcodes/img.html -->
+{{ $baseURL := .Site.Params.imgBaseURL | default "" }} <!-- 读取配置中的 imgBaseURL -->
+{{ $src := .Get "src" }} <!-- 从短代码参数获取图片相对路径 -->
+{{ $alt := .Get "alt" | default "" }} <!-- 图片 alt 文本（可选） -->
+
+<!-- 拼接完整 URL：$baseURL + $src -->
+<img 
+  src="{{ $baseURL }}{{ $src }}" 
+  alt="{{ $alt }}" 
+  loading="lazy"
+>
