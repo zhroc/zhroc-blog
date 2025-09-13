@@ -1,0 +1,1 @@
+Use ps.gaoding.com, import templates and fonts, and create a cover.
